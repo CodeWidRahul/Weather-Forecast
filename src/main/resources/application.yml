@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+weather:
+  forecast:
+    baseurl: https://weatherapi-com.p.rapidapi.com
+    x-rapidapi-key: e6a4c5910bmsh07ce5be6e0ae8b6p10bd93jsnb1f3c239a48f
+    x-rapidapi-host: weatherapi-com.p.rapidapi.com
