@@ -15,7 +15,7 @@ public class WeatherForecastController {
     @Autowired
     private WeatherForecastService weatherForecastService;
 
-    @GetMapping(value = "/report")
+    //@GetMapping(value = "/report")
     public ResponseEntity<?> getWeatherReport(@RequestParam String location) {
         Object report = weatherForecastService.fetchWeatherReport(location);
         return ResponseEntity.ok(report);
